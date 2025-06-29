@@ -1,25 +1,39 @@
 # 🔢 Base Converter with Tkinter
 
-A **Graphical Base Number Converter** made using Python and Tkinter.  
-This tool converts numbers between **bases 2 to 16**, showing a **step-by-step breakdown** of the conversion process.
+A **Graphical Base Number Converter** built using Python and Tkinter.  
+This tool converts numbers between **bases 2 to 16**, and shows a **step-by-step explanation** of the conversion process in a scrollable GUI.
 
 ---
 
-## 💻 Preview
+## 💡 Features
 
-You enter a number, select the base it's in (From Base), and the base to convert to (To Base), and it will:
-- Convert from the original base to **base 10**
-- Then convert from **base 10** to the **desired base**
-- Display the detailed math steps for both conversions in a scrollable output area
+- Convert numbers from **base 2 to base 16**
+- Step-by-step breakdown of:
+  - Converting to base 10
+  - Then converting from base 10 to the target base
+- Scrollable output area
+- Built with `tkinter` — no external packages needed
 
 ---
 
 ## 📦 Requirements
 
-- Python 3.x  
-- No additional packages required — uses only Python's **standard library**
+- Python **3.x**
+- `tkinter` (comes with Python by default on most systems)
 
-You can check your Python version with:
+### 💡 If you're using Linux and tkinter is missing:
+
+Install it using:
 
 ```bash
-python --version
+sudo apt-get install python3-tk
+```
+
+📥 How to Clone This Repository
+Using Git:
+
+```bash
+git clone https://github.com/yourusername/base-converter-gui.git
+cd base-converter-gui
+```
+Or download the ZIP and extract it manually.
